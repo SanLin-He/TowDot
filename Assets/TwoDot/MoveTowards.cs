@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveRight : MonoBehaviour
+public class MoveTowards : MonoBehaviour
 {
     [SerializeField] float speed;
+    [SerializeField] Vector3 direction = Vector3.forward;
     void Start()
     {
         
@@ -13,6 +14,6 @@ public class MoveRight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.up *speed * Time.deltaTime;
+        transform.position += direction *speed * Time.deltaTime;
     }
 }

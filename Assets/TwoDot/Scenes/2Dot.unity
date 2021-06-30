@@ -1231,6 +1231,7 @@ GameObject:
   - component: {fileID: 4100650540016460529}
   - component: {fileID: 4100650540016460531}
   - component: {fileID: 4100650540016460530}
+  - component: {fileID: 4100650540016460532}
   m_Layer: 5
   m_Name: Stick
   m_TagString: Untagged
@@ -1259,7 +1260,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4100650540016460528}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40b8b59ea1f8a4c4e82133febccbd8cb, type: 3}
   m_Name: 
@@ -1276,6 +1277,20 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb6eb82ec8894374b9ed517e4d15f9fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MovementRange: 50
+  m_ControlPath: <Gamepad>/leftStick
+--- !u!114 &4100650540016460532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4100650540016460528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46405ab9788292949aa0f575365062df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_MovementRange: 50
