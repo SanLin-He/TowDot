@@ -1,0 +1,33 @@
+{
+    "name": "TwoDot",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "73610368-066b-441e-b46d-b2f8c0d868f5",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "215a233c-5c53-4448-936f-ad16da00f7f9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5d58dbd4-eb5a-4866-a352-f7a1ccb86f09",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
